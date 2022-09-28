@@ -23,8 +23,8 @@ defined( 'ABSPATH' ) || exit;
 		    <div class="col-md-6">
 		      <div class="text-block left">
 		      	<?php echo heaf_about();?>
-		      	<?php //echo heaf_positions();?>
-				<?php //echo heaf_questions();?>		      	
+		      	<?php echo heaf_positions();?>
+				<?php echo heaf_questions();?>		      	
 		      </div>
 		    </div>
 		 	<!--end col md 6-->
