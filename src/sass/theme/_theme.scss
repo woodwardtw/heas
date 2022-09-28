@@ -17,6 +17,11 @@ body {
   margin-bottom: 80px;
 }
 
+#main-nav {
+	margin: 0;
+	padding: 0;
+}
+
 #heas-logo {
   position:relative;
   width: 70vw;
@@ -31,7 +36,7 @@ body {
 }
 
 
-.menu {
+#main-menu{
   font-size: 3rem;
   text-align: right;
   margin: 0;
@@ -39,20 +44,20 @@ body {
   width: 20vw;
 }
 
-.menu ul {
+#main-menu ul {
   margin-left: 0;
   padding-left: 0;
   padding-right: 30px;
   padding-top: 20px;
 }
 
-.menu li {
+#main-menu li {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-.menu a {
+#main-menu a {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
@@ -63,7 +68,7 @@ body {
     transition: .5s ease-out;
 }
 
-.menu a:hover {
+#main-menu a:hover {
      background-position: right;
 }
 
