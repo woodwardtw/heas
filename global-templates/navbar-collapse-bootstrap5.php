@@ -12,6 +12,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+	 <div id="heas-logo">
+      <img src="https://experiments.middcreate.net/extras/imgs/heaf-plain-logo.svg" id="heaf-text">
+      <svg id="barcode"></svg>
+    </div>
 
 	<h2 id="main-nav-label" class="screen-reader-text">
 		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
