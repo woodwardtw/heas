@@ -29,7 +29,9 @@ defined( 'ABSPATH' ) || exit;
 		    <div class="col-md-6">
 		      <div class="text-block right">
 		        <h2>Actions</h2>
-		        <div id="home-posts"></div>
+		        <div id="home-posts">
+		        	<?php echo heas_list_posts();?>
+		        </div>
 		      </div>
 		    </div>
 		 </div>

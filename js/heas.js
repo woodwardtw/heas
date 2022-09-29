@@ -9,18 +9,18 @@ JsBarcode("#barcode", phrase, {
   displayValue: false
 });
 
-const posts = 'https://aftersurveillance.net/wp-json/wp/v2/posts?per_page=30';
+// const posts = 'https://aftersurveillance.net/wp-json/wp/v2/posts?per_page=30';
 
-fetch(posts) .then(response => response.json()).then(data => makeHeafPosts(data));
+// fetch(posts) .then(response => response.json()).then(data => makeheasPosts(data));
 
-function makeHeafPosts(data){
-  const destination = document.querySelector('#home-posts');  
-  data.forEach((element) => {
-     const title = element.title.rendered;
-    const link = element.link;
-     destination.innerHTML += `<div class='front-post'><a href="${link}"><h3>${title}</h3></a></div>`
+// function makeheasPosts(data){
+//   const destination = document.querySelector('#home-posts');  
+//   data.forEach((element) => {
+//      const title = element.title.rendered;
+//     const link = element.link;
+//      destination.innerHTML += `<div class='front-post'><a href="${link}"><h3>${title}</h3></a></div>`
 
-    //destination.appendChild("<h3>${element.title.rendered}</h3>");
-    console.log(element)
-  });
-}
+//     //destination.appendChild("<h3>${element.title.rendered}</h3>");
+//     console.log(element)
+//   });
+// }

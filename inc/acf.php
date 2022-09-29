@@ -8,9 +8,6 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-// heaf_about();
-// 	heaf_positions();
-//  heaf_questions();
 
 function heaf_about(){
 	if(get_field('about')){
