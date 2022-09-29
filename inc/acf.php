@@ -24,7 +24,7 @@ function heaf_about(){
 
 function heaf_positions(){
 	$html = "<div class='text-block left'>
-			<h2 id='positions'>Positions</h2>
+			<h2 id='positions'>HEAS Positions</h2>
 			<p>We offer the following positions for context, analysis, disagreement, amendment and addition.</p>";
 	if( have_rows('position_statements') ):
 
