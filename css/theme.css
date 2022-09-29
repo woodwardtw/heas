@@ -17287,6 +17287,14 @@ h2, .h2 {
   padding: 50px;
 }
 
+.entry-footer {
+  background-color: #fff;
+}
+
+#respond {
+  margin-top: 80px;
+}
+
 @media (max-width: 645px) {
   #barcode {
     width: 100vw;
