@@ -17276,6 +17276,17 @@ h2, .h2 {
   color: #fff;
 }
 
+#main, #right-sidebar {
+  padding: 100px 200px;
+}
+
+#main .entry-content, #right-sidebar {
+  font-size: 2rem;
+  background-color: #fff;
+  margin: 80px 0;
+  padding: 50px;
+}
+
 @media (max-width: 645px) {
   #barcode {
     width: 100vw;
