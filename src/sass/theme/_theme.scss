@@ -22,8 +22,14 @@ body {
 	padding: 0;
 }
 
+.navgar-toggler {
+    float: right;
+}
+
 .navbar-toggler-icon {
-	background-color: $red;
+  background-image: url(../imgs/burger.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #heas-logo {
@@ -217,4 +223,23 @@ h2 {
 	.holder {
 		margin: 30px 0;
 	}
+
+  #main-menu {
+    width: 100%;
+  }
+
+  .single-post #main, .member, #right-sidebar {
+      padding: 10px 20px;
+    }
+
+    .single-post #main .entry-content, .member .entry-content, #right-sidebar  {
+      font-size: 2rem;
+      background-color: #fff;
+      margin: 80px 0;
+      padding: 10px;
+    }
+
+    .comments-title {
+      font-size: 2rem;
+    }
 }
