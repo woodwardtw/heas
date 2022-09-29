@@ -57,6 +57,7 @@ defined( 'ABSPATH' ) || exit;
 		      </filter>
 		      </svg>
 		    </div> 
+		    <?php echo heas_list_people();?>
 		    <div class="col-md-3">      
 		            <!-- use the  #filter filter -->
 		      <div class="bio holder">
