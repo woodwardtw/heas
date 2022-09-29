@@ -134,8 +134,20 @@ h2 {
 
 .bio {
   filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);  
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 20px 0;
 }
 
+.holder {
+	margin: 20px 10px 60px 10px;
+	text-align: center;
+}
+
+.red {
+	background-color: $red;
+}
 
 @media ( max-width: 645px ) {  
 	#barcode {

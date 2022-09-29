@@ -51,13 +51,16 @@ function heas_list_people(){
                             $post_id = get_the_ID();
                             $title = get_the_title();
                             $link = get_permalink($post_id);
-                            $img = get_the_post_thumbnail_url($post_id, 'medium');
+                            $img = get_the_post_thumbnail_url($post_id, 'bio');                    
+
                             $html .= "<div class='col-md-3'>      
                                             <!-- use the  #filter filter -->
-                                              <div class='bio holder'>
-                                                    <img src='{$img}'  alt='Blurred bio image of {$title}.'>
-                                              </div>  
-                                              <h3>{$title}</h3>
+                                            <div class='holder'>
+                                                  <div class='bio'>
+                                                        <img class='bio-home' src='{$img}'  alt='Blurred bio image of {$title}.'>
+                                                  </div>  
+                                            <h3>{$title}</h3>
+                                            </div>
                                     </div>";
                              endwhile;
                       endif;

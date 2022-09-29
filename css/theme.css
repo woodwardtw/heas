@@ -17227,6 +17227,19 @@ h2, .h2 {
 .bio {
   -webkit-filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);
   filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.holder {
+  margin: 20px 10px 60px 10px;
+  text-align: center;
+}
+
+.red {
+  background-color: #940a00;
 }
 
 @media (max-width: 645px) {

@@ -36,13 +36,8 @@ defined( 'ABSPATH' ) || exit;
 		    </div>
 		 </div>
 		  <!--end row-->
-		  <div class="row">
-		    <div class="col-md-6">
-		      <div class="text-block left">
-		          <h2 id="people">People</h2>        
-		      </div>
-		    </div>
-		    <div class="col-md-6">
+		  <div class="row">		    
+		    <div class="col-md-6 offset-md-6">
 		     <div class="text-block left">
 		          <h2 id="participate">Participate</h2> 
 		       <p>Call to action. Contact or something like that.</p>
@@ -56,36 +51,18 @@ defined( 'ABSPATH' ) || exit;
 		        <feMorphology operator="dilate" radius="5"/>
 		      </filter>
 		      </svg>
-		    </div> 
-		    <?php echo heas_list_people();?>
-		    <div class="col-md-3">      
-		            <!-- use the  #filter filter -->
-		      <div class="bio holder">
-		            <img src="https://dlinq.middcreate.net/wp-content/uploads/2021/07/Woodward_Tom_325_420.jpg"  alt="Blurred bio image.">
-		      </div>  
-		              <h3>Tom Woodward</h3>
-		    </div>
-		      <div class="col-md-3">
-		        <div class="bio holder">
-		            <img src="https://dlinq.middcreate.net/wp-content/uploads/2021/07/Woodward_Tom_325_420.jpg"  alt="Blurred bio image.">        
-		        </div>     
-		        <h3>Tom Woodward</h3>
-		      </div>
-		        <div class="col-md-3">
-		        <div class="bio holder">
-		            <img src="https://dlinq.middcreate.net/wp-content/uploads/2021/07/Woodward_Tom_325_420.jpg"  alt="Blurred bio image.">
-		        </div>  
-		        <h3>Tom Woodward</h3>
-		      </div>    
-		          <div class="col-md-3">
-		        <div class="bio holder">
-		            <img src="https://dlinq.middcreate.net/wp-content/uploads/2021/07/Woodward_Tom_325_420.jpg"  alt="Blurred bio image.">
-		        </div> 
-		       <h3>Tom Woodward</h3>
-		      </div>
-		    </div>  
+		    </div> 		   
 		  </div>
 		  <!--end row-->
+		  <div class="row red">
+		  	<div class="col-md-6">
+		      <div class="text-block left">
+		          <h2 id="people">People</h2>        
+		      </div>
+		    </div>
+		    <div class="col-md-6"></div>
+		  	 <?php echo heas_list_people();?>		   
+		  </div>
 
 	
 
