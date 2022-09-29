@@ -184,13 +184,13 @@ h2 {
 }
 
 //single post 
-#main, #right-sidebar {
+.single-post #main, #right-sidebar {
   padding: 100px 200px;
 }
 
 
 
-#main .entry-content, #right-sidebar  {
+.single-post #main .entry-content, #right-sidebar  {
   font-size: 2rem;
   background-color: #fff;
   margin: 80px 0;
