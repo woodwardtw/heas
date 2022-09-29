@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h1 class="entry-title home-title">Home</h1>
 
 	</header><!-- .entry-header -->
 
@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) || exit;
 		    <div class="col-md-6 offset-md-6">
 		     <div class="text-block left">
 		          <h2 id="participate">Participate</h2> 
-		       <p>Call to action. Contact or something like that.</p>
+		       	  <?php echo get_field('participate');?>
 		      </div>
 		      <svg xmlns="http://www.w3.org/2000/svg">
 		           <filter id="filter" x="0" y="0">
@@ -57,7 +57,7 @@ defined( 'ABSPATH' ) || exit;
 		  <div class="row red">
 		  	<div class="col-md-6">
 		      <div class="text-block left">
-		          <h2 id="people">People</h2>        
+		          <h2 id="people">Members</h2>        
 		      </div>
 		    </div>
 		    <div class="col-md-6"></div>

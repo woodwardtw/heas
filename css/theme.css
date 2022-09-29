@@ -17228,18 +17228,52 @@ h2, .h2 {
   -webkit-filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);
   filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);
   width: 100%;
-  height: 400px;
+  height: 420px;
   overflow: hidden;
-  margin: 20px 0;
+}
+
+.bio img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 420px;
+  margin-bottom: 20px;
 }
 
 .holder {
+  width: 100%;
+  overflow: hidden;
   margin: 20px 10px 60px 10px;
   text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.holder h3, .holder .h3 {
+  margin: 20px 0;
 }
 
 .red {
   background-color: #940a00;
+}
+
+.black {
+  background-color: #000;
+}
+
+#full-width-page-wrapper p, #full-width-page-wrapper ul, #full-width-page-wrapper ol {
+  font-size: 1.8rem;
+}
+
+#full-width-page-wrapper .container-fluid, #full-width-page-wrapper .container-sm, #full-width-page-wrapper .container-md, #full-width-page-wrapper .container-lg, #full-width-page-wrapper .container-xl, #full-width-page-wrapper .container-xxl {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 80px 40px;
+}
+
+.home-title {
+  color: #fff;
 }
 
 @media (max-width: 645px) {

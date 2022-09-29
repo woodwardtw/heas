@@ -135,18 +135,52 @@ h2 {
 .bio {
   filter: url(#filter) grayscale(100) contrast(1.2) brightness(2.5);  
   width: 100%;
-  height: 400px;
+  height: 420px;
   overflow: hidden;
-  margin: 20px 0;
+}
+
+.bio img {
+	object-fit: cover;
+	width: 100%;
+  	height: 420px;
+  	margin-bottom: 20px;
 }
 
 .holder {
+	width: 100%;
+	overflow: hidden;
 	margin: 20px 10px 60px 10px;
 	text-align: center;
+	background-color: #fff;
+	color: $black;
+}
+
+.holder h3 {
+	margin: 20px 0;
 }
 
 .red {
 	background-color: $red;
+}
+
+.black {
+	background-color: $black;
+}
+
+#full-width-page-wrapper p, #full-width-page-wrapper ul, #full-width-page-wrapper ol {
+	font-size: 1.8rem;
+}
+
+
+#full-width-page-wrapper .container-fluid {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 80px 40px;
+}
+
+.home-title {
+	color:#fff;
 }
 
 @media ( max-width: 645px ) {  
