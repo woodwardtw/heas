@@ -17282,18 +17282,25 @@ h2, .h2 {
   color: #fff;
 }
 
-.single-post #main, .member, #right-sidebar {
-  padding: 100px 200px;
+article, .member, #right-sidebar {
+  padding: 2vw 5vw;
 }
 
 .member .entry-meta {
   display: none;
 }
 
-.single-post #main .entry-content, .member .entry-content, #right-sidebar {
+.single-post #main .entry-content, .member .entry-content {
   font-size: 1.6rem;
   background-color: #fff;
-  margin: 80px 0;
+  margin: 40px 0;
+  padding: 50px 20px 50px 0;
+}
+
+#right-sidebar {
+  font-size: 1.6rem;
+  background-color: #fff;
+  margin: 40px 0;
   padding: 50px;
 }
 
